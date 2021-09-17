@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
 
   s.files = Dir["lib/**/*"] + ["LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency 'nokogiri', '>= 1.6.3', '< 1.7'
+  s.add_dependency 'nokogiri', '>= 1.6.3', '~> 1.11'
   s.add_dependency 'rubyzip', '~> 0.9.9'
 end
